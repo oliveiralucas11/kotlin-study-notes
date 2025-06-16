@@ -1,5 +1,6 @@
 package fundamentos
 
+
 fun main() {
 
     val mediaDePreco: Int = 22
@@ -9,6 +10,12 @@ fun main() {
 
     // Convertendo int para string
     val resposta2 = mediaDePreco.toString()
+
+    // Convertendo int para long
+    val resposta3 = mediaDePreco.toLong()
+
+    // Convertendo int para float
+    val resposta4 = mediaDePreco.toFloat()
 
     println(resposta)
     println(resposta::class)
